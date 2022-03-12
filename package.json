@@ -3,7 +3,24 @@
   "version": "0.0.1--beta",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
+  "files": [
+    "dist/*"
+  ],
+  "author": "Rafli Surya P <rafli.rfsp@gmail.com> (https://github.com/rsurya99)",
   "description": "Merakiui Vue Component",
+  "keywords": [
+    "vue",
+    "merakiui",
+    "vue-component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSurya99/merakiui-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RSurya99/merakiui-vue/issues"
+  },
+  "homepage": "https://github.com/RSurya99/merakiui-vue#readme",
   "scripts": {
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
@@ -11,16 +28,6 @@
     "playground": "vite",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "postinstall": "npx rimraf ./node_modules/@types/react"
-  },
-  "keywords": [
-    "vue",
-    "merakiui",
-    "vue-component"
-  ],
-  "author": "RSurya99",
-  "license": "MIT",
-  "peerDependencies": {
-    "vue": "^3.2.25"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -44,5 +51,9 @@
     "vite": "^2.8.6",
     "vue": "^3.2.31"
   },
-  "dependencies": {}
+  "peerDependencies": {
+    "vue": "^3.2.25"
+  },
+  "dependencies": {},
+  "license": "MIT"
 }
