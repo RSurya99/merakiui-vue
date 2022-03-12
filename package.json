@@ -6,9 +6,6 @@
   "description": "Merakiui Vue Component",
   "scripts": {
     "build": "rollup -c",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "playground": "vite",
@@ -23,7 +20,7 @@
   "author": "RSurya99",
   "license": "MIT",
   "peerDependencies": {
-    "vue": "^3.2.21"
+    "vue": "^3.2.25"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -45,8 +42,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tailwindcss": "^3.0.23",
     "vite": "^2.8.6",
-    "vitepress": "^0.22.3",
-    "vue-loader": "^16.8.3"
+    "vue": "^3.2.31"
   },
   "dependencies": {}
 }
