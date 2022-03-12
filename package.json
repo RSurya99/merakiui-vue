@@ -1,0 +1,42 @@
+{
+  "name": "merakiui-vue",
+  "version": "0.0.1--beta",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "description": "Merakiui Vue Component",
+  "scripts": {
+    "build": "rollup -c",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "playground": "vite"
+  },
+  "keywords": [
+    "vue",
+    "merakiui",
+    "vue-component"
+  ],
+  "author": "RSurya99",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/vue3": "^6.4.19",
+    "@vitejs/plugin-vue": "^2.2.4",
+    "babel-loader": "^8.2.3",
+    "rollup": "^2.70.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "vite": "^2.8.6",
+    "vitepress": "^0.22.3",
+    "vue-loader": "^16.8.3"
+  },
+  "dependencies": {}
+}
